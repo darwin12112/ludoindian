@@ -3,7 +3,7 @@ var fs = require('fs');
 var dateFormat = require("dateformat");
 var database = null;
 var gamemanager = require('../game_manager/gamemanager');
-var serverip = '52.66.210.17';
+var serverip = '64.227.169.9';
 var port = '16000';
 
 exports.initdatabase = function(db) {
