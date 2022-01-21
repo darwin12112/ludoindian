@@ -12,7 +12,7 @@ exports.connect = function(done) {
     MongoClient.connect(URL,{ useNewUrlParser: true, useUnifiedTopology: true }, function(err, client) {
         if (err)
             return done(err);
-        var db = client.db('webplustechludo');
+        var db = client.db('ludoindian');
         state.db = db;
         done();
     });
